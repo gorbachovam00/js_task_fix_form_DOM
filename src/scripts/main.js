@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const label = document.createElement('label');
 
-    label.classList = 'field-label';
+    label.className = 'field-label';
     label.htmlFor = input.id;
     label.textContent = names.charAt(0).toUpperCase() + names.slice(1);
 
